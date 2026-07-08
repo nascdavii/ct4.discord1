@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Disclaimer — Central X</title>
+  
+  <!-- Preconnections for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --bg-color: #0a1410;
+      --card-bg: #14261c;
+      --border-color: rgba(255, 255, 255, 0.06);
+      --accent-green: #34e074;
+      --accent-hover: #28c065;
+      --text-primary: #e8ebe9;
+      --text-secondary: #8a9a91;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-primary);
+      font-family: 'Inter', sans-serif;
+      line-height: 1.7;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      flex-grow: 1;
+    }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      color: var(--text-secondary);
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 500;
+      margin-bottom: 32px;
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+      .back-link, .footer-link {
+        transition: color 150ms ease, transform 150ms ease;
+      }
+      .back-link:hover {
+        color: var(--accent-green);
+        transform: translateX(-2px);
+      }
+    }
+
+    .back-link:hover {
+      color: var(--accent-green);
+    }
+
+    .back-link:focus-visible,
+    a:focus-visible {
+      outline: 2px solid var(--accent-green);
+      outline-offset: 4px;
+    }
+
+    h1 {
+      font-size: 32px;
+      font-weight: 700;
+      color: var(--accent-green);
+      margin-bottom: 24px;
+      line-height: 1.2;
+      letter-spacing: -0.02em;
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 600;
+      color: #ffffff;
+      margin-top: 32px;
+      margin-bottom: 12px;
+      line-height: 1.3;
+    }
+
+    p {
+      font-size: 15px;
+      color: var(--text-primary);
+      margin-bottom: 16px;
+    }
+
+    ul {
+      margin-bottom: 16px;
+      padding-left: 20px;
+    }
+
+    li {
+      font-size: 15px;
+      color: var(--text-primary);
+      margin-bottom: 8px;
+    }
+
+    /* Footer styling */
+    footer {
+      margin-top: auto;
+      padding: 40px 20px 24px 20px;
+      text-align: center;
+      font-size: 13px;
+      font-weight: 400;
+    }
+
+    .footer-copyright {
+      color: var(--text-secondary);
+      margin-bottom: 12px;
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .footer-link {
+      color: var(--text-secondary);
+      text-decoration: none;
+    }
+
+    .footer-link:hover {
+      color: var(--accent-green);
+    }
+
+    .footer-separator {
+      color: var(--border-color);
+      user-select: none;
+    }
+  </style>
+</head>
+<body>
+
+  <main class="container">
+    <!-- Back Button -->
+    <a href="index.html" class="back-link" id="link-back-home" aria-label="Voltar para a página inicial">
+      &larr; Voltar
+    </a>
+
+    <!-- Page Title -->
+    <h1>Disclaimer</h1>
+
+    <p>As informações contidas no Central X são oferecidas apenas para fins de entretenimento, demonstração técnica e divulgação informativa sobre jogos competitivos. O acesso a este site implica o reconhecimento de que todos os dados e mídias aqui dispostos não devem ser interpretados como recomendações formais ou promessas absolutas de desempenho.</p>
+
+    <!-- Section 1 -->
+    <h2>1. Isenção Geral de Responsabilidade</h2>
+    <p>O Central X se esforça para manter os materiais informativos e conceituais corretos e atualizados, contudo, não fazemos declarações ou garantias de qualquer tipo, expressas ou implícitas, sobre a integridade, precisão, confiabilidade ou disponibilidade contínua em relação ao site ou às informações e gráficos relacionados.</p>
+    <p>Qualquer confiança que você depositar em tais informações é estritamente por sua própria conta e risco. Não nos responsabilizamos por perdas de dados ou interrupções temporárias de jogo que ocorram de forma alheia ao escopo da nossa interface estática.</p>
+
+    <!-- Section 2 -->
+    <h2>2. Conteúdo de Terceiros (YouTube)</h2>
+    <p>A nossa página inicial incorpora vídeos promocionais, conceituais e guias hospedados em servidores de terceiros, especificamente o YouTube. A presença destas mídias incorporadas não implica necessariamente uma recomendação direta ou endosso de opiniões, estratégias competitivas ou serviços de terceiros vinculados pelos autores do canal originário.</p>
+    <p>Os direitos autorais das mídias exibidas pertencem unicamente a seus criadores. Se você for o detentor de direitos autorais de algum conteúdo integrado e desejar sua desassociação imediata, por favor, envie sua notificação formal aos canais de suporte.</p>
+
+    <!-- Section 3 -->
+    <h2>3. Sem Garantias</h2>
+    <p>Não há qualquer garantia implícita de que os servidores que hospedam este site estejam permanentemente livres de falhas externas ou de instabilidades na internet. Não seremos responsáveis se, por qualquer motivo mecânico ou indisponibilidade da plataforma de hospedagem de terceiros, o site ficar indisponível a qualquer momento ou por qualquer período de tempo.</p>
+
+    <!-- Section 4 -->
+    <h2>4. Links Externos</h2>
+    <p>Por meio deste site, você poderá ser direcionado a links que levam a redes sociais, canais de streaming ou plataformas de bate-papo comunitárias externas (como Discord ou YouTube). Não temos controle sobre a natureza, conteúdo, comportamento, moderação ou disponibilidade desses locais de terceiros.</p>
+    <p>A inclusão de qualquer link externo não implica necessariamente uma recomendação formal das atividades promovidas nesses servidores externos, sendo o usuário responsável por verificar as regras individuais de cada comunidade.</p>
+
+    <!-- Section 5 -->
+    <h2>5. Uso por Sua Conta e Risco</h2>
+    <p>Ao navegar pelo Central X, você assume plena responsabilidade pelo uso adequado de suas configurações de hardware, navegador de internet e monitoramento de saúde visual durante a reprodução de vídeos. Lembre-se sempre de fazer intervalos regulares durante sessões longas de jogos e vídeos competitivos para preservar o seu bem-estar físico e mental.</p>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-copyright">
+      &copy; 2026 All rights reserved.
+    </div>
+    <nav class="footer-links" aria-label="Links Rodapé">
+      <a href="termos.html" class="footer-link" id="link-termos">Termos</a>
+      <span class="footer-separator">&bull;</span>
+      <a href="disclaimer.html" class="footer-link" id="link-disclaimer">Disclaimer</a>
+      <span class="footer-separator">&bull;</span>
+      <a href="privacidade.html" class="footer-link" id="link-privacidade">Política de Privacidade</a>
+    </nav>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "name": "Central X",
+  "description": "Fast, fluid and competitive gameplay awaits inside.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
